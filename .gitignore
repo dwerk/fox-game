@@ -1,4 +1,7 @@
+# generated files
 node_modules/
-.DS_Store
 dist/
 .cache/
+
+# system files
+.DS_Store

@@ -5,18 +5,20 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
+    "eslint": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.22.1",
     "parcel-bundler": "^1.12.5",
     "prettier": "^2.2.1"
   },
-  "browserslist" : [
+  "browserslist": [
     "last 2 Chrome versions"
   ]
 }
