@@ -54,13 +54,13 @@
   background-image: url(bg/ICONS/Selected.png);
 }
 
-.fox-static {
+.fox--state-static {
   background-image: url(./pet/FoxBase.png);
   width: 117px;
   height: 165px;
 }
 
-.fox-idling {
+.fox--state-idling {
   background-image: url(./pet/AtRest.png);
   background-repeat: no-repeat;
   width: 117px;
@@ -74,7 +74,7 @@
   }
 }
 
-.fox.fox-pooping {
+.fox--state-pooping {
   background-image: url(./pet/Pooping.png);
   background-position: -1836px;
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@
   animation: pooping 5s steps(10);
 }
 
-.fox.fox-pooped {
+.fox--state-pooped {
   background-image: url(./pet/Pooping.png);
   background-position: -1836px;
   background-repeat: no-repeat;
@@ -100,7 +100,7 @@
   }
 }
 
-.fox-celebrate.fox {
+.fox--state-celebrate {
   background-image: url(./pet/Yay.png);
   background-repeat: no-repeat;
   width: 130.8px;
@@ -114,7 +114,7 @@
   }
 }
 
-.fox-rain.fox {
+.fox--state-rain {
   background-image: url(./pet/Rain.png);
   background-repeat: no-repeat;
   width: 134px;
@@ -128,7 +128,7 @@
   }
 }
 
-.fox-hungry.fox {
+.fox--state-hungry {
   background-image: url(./pet/Hungry.png);
   background-repeat: no-repeat;
   width: 130px;
@@ -143,7 +143,7 @@
   }
 }
 
-.fox-eating.fox {
+.fox--state-eating {
   background-image: url(./pet/Eating.png);
   background-position: -1865.7px;
   background-repeat: no-repeat;
@@ -163,7 +163,7 @@
   }
 }
 
-.fox-egg.fox {
+.fox--state-egg {
   background-image: url(./pet/Egg.png);
   background-repeat: no-repeat;
   background-position: -1050px;
@@ -181,7 +181,7 @@
   }
 }
 
-.fox-dead.fox {
+.fox--state-dead {
   background-image: url(./pet/TombStone.png);
   background-repeat: no-repeat;
   width: 118px;
@@ -195,7 +195,7 @@
   }
 }
 
-.fox-sleep.fox {
+.fox--state-sleep {
   background-image: url(./pet/Sleeping.png);
   background-repeat: no-repeat;
   width: 250px;
@@ -221,7 +221,7 @@
   left: 60px;
 }
 
-.rain ~ .foreground-rain {
+.game--state-rain ~ .foreground-rain {
   display: block;
 }
 
@@ -253,15 +253,15 @@
   background-image: url(./bg/DAY.png);
 }
 
-.game.night {
+.game--state-night {
   background-image: url(./bg/NIGHT.png);
 }
 
-.game.dead {
+.game--state-dead {
   background-image: url(./bg/DEAD.png);
 }
 
-.game.rain {
+.game--state-rain {
   background-image: url(./bg/RAINY.png);
 }
 

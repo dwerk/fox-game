@@ -37,11 +37,14 @@ body {
   width: 628px;
   height: 577px;
   position: absolute;
+}
+
+.game--state-day {
   top: 62px;
   left: 67px;
 }
 
-.game.night {
+.game--state-night {
   width: 716px;
   top: 62px;
   left: -19px;
@@ -109,39 +112,39 @@ body {
   overflow: hidden;
 }
 
-.fox-pooping {
+.fox--state-pooping {
   top: 319px;
   left: 159px;
 }
 
-.fox-celebrate {
+.fox--state-celebrate {
   top: 290px;
-  left: 290;
+  left: 290px;
 }
 
-.fox-rain {
+.fox--state-rain {
   top: 362px;
 }
 
-.fox-hungry {
+.fox--state-hungry {
   top: 362px;
 }
 
-.fox-eating {
-  top: 362;
+.fox--state-eating {
+  top: 362px;
 }
 
-.fox-egg {
+.fox--state-egg {
   top: 351px;
   left: 248px;
 }
 
-.fox-sleep {
+.fox--state-sleep {
   top: 351px;
   left: 445px;
 }
 
-.fox-dead {
+.fox--state-dead {
   top: 380px;
   left: 243px;
 }
